@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.matthaigh27.chatgptwrapper'
+    namespace 'com.librechat.app'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.matthaigh27.chatgptwrapper"
+        applicationId "com.librechat.app"
         minSdk 28
         targetSdk 33
         versionCode 1
-        versionName "1.5"
+        versionName "1.0"
     }
 
     buildTypes {
