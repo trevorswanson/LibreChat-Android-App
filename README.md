@@ -6,7 +6,9 @@
 
 ## About
 
-This app is a webview for [LibreChat](https://github.com/danny-avila/LibreChat) instance Android independent app, this project is forked from [ChatGPT-android-app](https://github.com/matthaigh27/ChatGPT-android-app). Default webpage of this app has been set to LibreChat's GitHub Page. This app is optimized for LibreChat's function which is not in original project. For example, Social Login Oauth login support is added to this build.
+This app is a webview for [LibreChat](https://github.com/danny-avila/LibreChat) instance Android independent app, this project is forked from [ChatGPT-android-app](https://github.com/matthaigh27/ChatGPT-android-app). Default webpage of this app has been set to LibreChat's ~~GitHub Page~~. This app is optimized for LibreChat's function which is not in original project. For example, Social Login Oauth login support is added to this build.
+
+Note: Now the default webpage of the latest example [Build](https://github.com/goodair220917/LibreChat-Android-App/releases/tag/demo) has been set to LibreChat's official demo.
 
 ## Screenshots
 
