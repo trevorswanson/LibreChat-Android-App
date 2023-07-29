@@ -24,11 +24,12 @@ Note: Now the default webpage of the latest example [Build](https://github.com/g
 
 * File uploads support was added to app for the import of presets
 
+
+## Build
+
 <h3>Requirements</h3>
 
 * Android Studio
-## Build
-
 
    * <h4 style="font-weight: normal;">1. Clone or download the repository.
 ```bash
