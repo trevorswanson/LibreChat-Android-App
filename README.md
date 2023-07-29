@@ -31,7 +31,8 @@ Note: Now the default webpage of the latest example [Build](https://github.com/g
 
 * Android Studio
 
-   * <h4 style="font-weight: normal;">1. Clone or download the repository.
+
+* <h4 style="font-weight: normal;">1. Clone or download the repository.
 ```bash
 git clone https://github.com/goodair220917/LibreChat-Android-App.git
 ```
