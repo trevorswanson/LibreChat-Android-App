@@ -9,9 +9,9 @@
     <application
         android:hardwareAccelerated="true"
         android:enableOnBackInvokedCallback="true"
-        android:icon="@drawable/ic_librechat"
+        android:icon="@drawable/librechat_icon"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_librechat"
+        android:roundIcon="@drawable/librechat_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
         <activity
