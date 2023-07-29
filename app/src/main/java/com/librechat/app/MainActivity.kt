@@ -8,8 +8,8 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.net.Uri
-import android.os.Build
 import android.os.Bundle
+import android.os.Build
 import android.view.View
 import android.view.WindowManager
 import android.webkit.JavascriptInterface
@@ -156,7 +156,22 @@ class MainActivity : AppCompatActivity() {
             webView.reload()
         }
 
-        webView.loadUrl(chatUrl)
+        // Check if WebView already has a saved state
+        if (savedInstanceState != null) {
+            webView.restoreState(savedInstanceState)
+        } else {
+            webView.loadUrl(chatUrl)
+        }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        webView.saveState(outState)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        webView.restoreState(savedInstanceState)
     }
 
     @Deprecated("Deprecated in Java")
