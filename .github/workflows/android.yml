@@ -20,4 +20,9 @@ jobs:
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v2
     - name: Run build with Gradle Wrapper
-      run: ./gradlew build
+      run: ./gradlew assembleRelease
+    - name: Upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: Build Artifacts
+        path: app/build/outputs/
