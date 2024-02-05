@@ -27,7 +27,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 class MainActivity : AppCompatActivity() {
     private val userAgent =
         "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.135 Mobile Safari/537.36"
-    private val chatUrl = "https://librechat-librechat.hf.space"
+    private val chatUrl = "https://chat.tswan.stream"
     private lateinit var binding: ActivityMainBinding
     private lateinit var webView: WebView
     private lateinit var swipeLayout: SwipeRefreshLayout
